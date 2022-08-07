@@ -2,8 +2,6 @@
 **/.gradle
 **/.idea
 **/gradle
-**/gradlew
-**/gradlew.*
 **/*.iws
 **/*.iml
 **/*.ipr
