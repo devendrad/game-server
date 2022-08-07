@@ -1,4 +1,6 @@
-# Games used:
+# Card Game Server
+
+## Games used:
 1) single-card-game
 2) double-card-game
 
