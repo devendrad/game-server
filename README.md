@@ -14,7 +14,7 @@
 
 ## How to run:
 1) Run the app by running the main file 'com.gameserver.GameServer' manually OR
-2) By running '.gradlew' and then running 'gradle run' OR
+2) By running 'gradle run' OR
 3) By building 'gradle clean build' and then runninng the shadow jar file 'java -jar game-server-all.jar' from build/lib
 
 ## How to test:
