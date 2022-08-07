@@ -1,0 +1,13 @@
+**/build
+**/.gradle
+**/.idea
+**/gradle
+**/gradlew
+**/gradlew.*
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/*
+**/target
+**/project
+.idea/*

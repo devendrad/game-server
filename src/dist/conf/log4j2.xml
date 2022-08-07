@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2018-2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+  LicenseRef-NvidiaProprietary
+
+  NVIDIA CORPORATION, its affiliates and licensors retain all intellectual
+  property and proprietary rights in and to this material, related
+  documentation and any modifications thereto. Any use, reproduction,
+  disclosure or distribution of this material and related documentation
+  without an express license agreement from NVIDIA CORPORATION or
+  its affiliates is strictly proprietaryhibited.prohibited
+-->
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <!--
+    <Appenders>
+        <Console name="Json" target="SYSTEM_OUT">
+            <JsonLayout>
+            </JsonLayout>
+        </Console>
+    </Appenders>
+    -->
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <Logger name="cab" level="info" additivity="false">
+            <appender-ref ref="Console" level="info" />
+        </Logger>
+    </Loggers>
+</Configuration>
